@@ -64,7 +64,6 @@ public class Main {
             Person p1 = studants.get(position.intValue());
             System.out.println("Qual é o novo nome?");
             name = scanner.next();
-            //studants.get(position.intValue()).name = name;
             p1.name = name;
         }
     }
