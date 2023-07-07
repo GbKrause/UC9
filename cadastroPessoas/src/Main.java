@@ -65,7 +65,7 @@ public class Main {
 
         System.out.println("Digite a idade do estudante:");
         int age = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer do scanner após a leitura do inteiro
+        scanner.nextLine();
 
         Person student = new Person(name, age, gender);
         students.add(student);
